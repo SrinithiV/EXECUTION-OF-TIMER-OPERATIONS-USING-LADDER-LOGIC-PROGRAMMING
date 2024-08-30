@@ -1,12 +1,10 @@
+# EXP.NO : 02
 # EXECUTION-OF-TIMER-OPERATIONS-USING-LADDER-LOGIC-PROGRAMMING
+ #### NAME : SRINITHI V
+ #### REGISTER NUMBER : 212222110046
+ #### DEPARTMENT : CSE(IoT)
+ #### YEAR : 3rd 
 
-
- #### NAME :
- #### REGISTER NUMBER :
- #### DEPARTMENT 
- #### YEAR 
-
- 
 # Aim:
 To understand and implement timer operations in a PLC using ladder logic and verify the output for different types of timers (ON-delay, OFF-delay, and Retentive timers).
 
@@ -52,7 +50,6 @@ Functionality:
 
 The Timer-On Interval is a variation of the ON-delay timer but is used to measure the time interval while the input is TRUE (ON).
 The timer counts up as long as the input is TRUE and resets when the input turns FALSE.
-
  
 # Procedure:
 Setup the PLC Programming Environment:
@@ -79,22 +76,12 @@ ON-Delay Timer: The output LED or indicator should turn on after a specified del
 OFF-Delay Timer: The output should remain on for the specified delay after the input is deactivated, and then it should turn off.
 Retentive Timer: The output should turn on after the accumulated time reaches the preset value, and it should retain the accumulated time even if the input is turned off.
 
-
 # Simulation Screenshots 
+## ON-Delay Timer: 
+![TON](https://github.com/user-attachments/assets/09e3ac59-e9b3-4505-aab0-ae8addd2e738)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## OFF-Delay Timer:
+![TOF](https://github.com/user-attachments/assets/de90ff31-4797-42b9-bc83-1392268d6c8d)
 
 # Results:
 The ladder logic programs for ON-delay, OFF-delay, and Retentive timers were successfully implemented and tested.
